@@ -129,7 +129,7 @@ a.icons svg {
 }
 
 .mainPageAdhyaayLogo {
-  transition: transform 250ms ease-in-out 250ms;
+  transition: transform 250ms ease-in-out 20ms;
   height: 400px;
   /* transition: drop-shadow 100ms ease-in-out 50ms; */
 }

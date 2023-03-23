@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import img from '../res/footerImg.png';
 import "../Pages/style/footer.css";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram, FaHeart } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -30,12 +30,9 @@ const Footer = () => {
                         <br />
                         <br />
                         <a style={{ textDecoration: "none" }} className='icons' href="https://www.instagram.com/adhyaay21/" target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
-                        {/* <a style={{ textDecoration: "none" }} className='icons' href="https://www.facebook.com/adhyaay19" target='_blank' rel="noopener noreferrer"><FaFacebookSquare /></a> */}
-                        {/* <a style={{ textDecoration: "none" }} className='icons' href="https://www.youtube.com/channel/UCUeDRs-7Z4EvqdfhxxZsAWw" target='_blank' rel="noopener noreferrer"><FaYoutube /></a> */}
                         <br />
                     </Col>
                 </Row>
-                <center><p class="love">Made with  <FaHeart /> by Ria Jaiswal</p></center>
             </Container>
         </section>
     );
