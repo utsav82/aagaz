@@ -5,69 +5,33 @@ import "./style/gallery.css"
 function Gallery() {
     const data = [
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_0059.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/20220522201931__MG_2794.JPG?raw=true",
+            caption: "AAGAZ'22"
         },
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_0070.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/WhatsApp%20Image%202023-03-23%20at%2023.32.11.jpg?raw=true",
+            caption: "AAGAZ'22"
         },
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_0083.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/football.jpg?raw=true",
+            caption: "AAGAZ'22"
         },
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_0179.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/WhatsApp%20Image%202023-03-23%20at%2022.50.44.jpg?raw=true",
+            caption: "AAGAZ'22"
         },
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_0234.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/WhatsApp%20Image%202023-03-23%20at%2022.50.49.jpg?raw=true",
+            caption: "AAGAZ'22"
         },
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_0468.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/WhatsApp%20Image%202023-03-23%20at%2022.50.46.jpg?raw=true",
+            caption: "AAGAZ'22"
         },
         {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_3451.png?raw=true",
-            caption: "Adhyaay'19"
+            image: "https://github.com/ayushsom1/aagaz-gallery/blob/main/WhatsApp%20Image%202023-03-23%20at%2022.50.47.jpg?raw=true",
+            caption: "AAGAZ'22"
         },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_4021.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_4159.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_4467.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_4576.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_4894.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_5015.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_5034.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_5346.png?raw=true",
-            caption: "Adhyaay'19"
-        },
-        {
-            image: "https://github.com/ayushsom1/pictures-Adhyaay/blob/main/DSC_5360.png?raw=true",
-            caption: "Adhyaay'19"
-        }
     ];
 
     const captionStyle = {
@@ -88,7 +52,7 @@ function Gallery() {
                 }}>
                     <Carousel
                         data={data}
-                        time={2000}
+                        time={1000}
                         width="950px"
                         height="500px"
                         captionStyle={captionStyle}

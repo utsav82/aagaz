@@ -3,7 +3,6 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 import img from '../res/onlyaagaz.png'
 import { Link } from 'react-router-dom'
 // import Button from 'react-bootstrap/Button'
-
 import '../Pages/styleAyush/navbar.css'
 
 const NavBar = () => {

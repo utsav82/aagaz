@@ -4,9 +4,9 @@ import Image from "react-bootstrap/Image";
 import Button from 'react-bootstrap/Button';
 import '../App.css';
 
-import back from "../res/bgaagaz.png";
+import back from "../res/firstbgaagaz.png";
 import adhyaay_logo from "../res/aagaztext.png";
-import adhyaay_logo_whitered from "../res/ADHYAAY WHITERED.png"
+import adhyaay_logo_whitered from "../res/onlyaagaz.png";
 
 const home = () => {
     const homeStyle = {
@@ -17,9 +17,9 @@ const home = () => {
         backgroundRepeat: 'no-repeat',
     };
     const aboutStyle = {
-        height: '600px',
+        height: '400px',
         width: '100%',
-        backgroundColor: 'black',
+        backgroundColor: '',
         backgroundImage:
             "url('https://dhruvil-lakhtaria.github.io/incident-2022/assets/img/xl.svg'), url('https://dhruvil-lakhtaria.github.io/incident-2022/assets/img/sm.svg')",
     };
@@ -37,11 +37,10 @@ const home = () => {
                         <div className='aboutStyleGridText'>
                             <h1>About</h1>
                             <br></br>
-                            <p>ADHYAAY is the annual literary-cum-cultural fest of HBTU.
-                                It is expected that ADHYAAY'21 will have 10,000+ footfalls and hence it will be larger than ever.<br></br>
+                            <p>AAGAZ'23 is the descendant of the program initiated by Sports Sub-Council. The event aims to bring all the sports events under the auspices of a Mega Inter-College sports fest!!
+                                <br></br>
                                 <br />
-                                A total of 3 days into Adhyaay will witness various events coming from all the sub-councils of HBTU.
-                                ADHYAAY brings the combined list of events from cultural, literary, hobby and photography sub-councils into one bracket
+                                AAGAZ'23 will be a new & better version of AAGAZ'22 which was a successful event. This will be an invaluable opportunity for brands to advertise themselves in front of the innovative lads.
                             </p>
                         </div>
                         <div className='aboutStyleGridPic'>

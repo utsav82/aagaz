@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import img from '../res/footerImg.png';
 import "../Pages/style/footer.css";
-import { FaMapMarkerAlt, FaPhoneAlt, FaInstagram, FaFacebookSquare, FaEnvelope, FaYoutube } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaInstagram, FaFacebookSquare, FaEnvelope, FaYoutube, FaHeart } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -23,18 +23,19 @@ const Footer = () => {
                             CONTACT US
                         </strong><br /><hr />
                         <h6><FaMapMarkerAlt />&nbsp; &nbsp; HBTU, Kanpur</h6>
-                        <FaPhoneAlt /><a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="tel:+91-7880944447">&nbsp; &nbsp; +91-7880944447</a>,
-                        <a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="tel:+91 7458946963">&nbsp;+91 7458946963</a>
+                        <FaPhoneAlt /><a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="tel:+91-7607673535">&nbsp; &nbsp; +91-7607673535</a>,
+                        <a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="tel:+91-7355605575">&nbsp;+91-7355605575</a>
                         <br />
-                        <FaEnvelope /><a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="mailto:culturalsubcouncil@hbtu.ac.in">&nbsp; &nbsp; culturalsubcouncil@hbtu.ac.in</a>
+                        <FaEnvelope /><a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="mailto:aagaz2k23@gmail.com">&nbsp; &nbsp; aagaz2k23@gmail.com</a>
                         <br />
                         <br />
                         <a style={{ textDecoration: "none" }} className='icons' href="https://www.instagram.com/adhyaay21/" target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
-                        <a style={{ textDecoration: "none" }} className='icons' href="https://www.facebook.com/adhyaay19" target='_blank' rel="noopener noreferrer"><FaFacebookSquare /></a>
-                        <a style={{ textDecoration: "none" }} className='icons' href="https://www.youtube.com/channel/UCUeDRs-7Z4EvqdfhxxZsAWw" target='_blank' rel="noopener noreferrer"><FaYoutube /></a>
+                        {/* <a style={{ textDecoration: "none" }} className='icons' href="https://www.facebook.com/adhyaay19" target='_blank' rel="noopener noreferrer"><FaFacebookSquare /></a> */}
+                        {/* <a style={{ textDecoration: "none" }} className='icons' href="https://www.youtube.com/channel/UCUeDRs-7Z4EvqdfhxxZsAWw" target='_blank' rel="noopener noreferrer"><FaYoutube /></a> */}
                         <br />
                     </Col>
                 </Row>
+                <center><p class="love">Made with  <FaHeart /> by Ria Jaiswal</p></center>
             </Container>
         </section>
     );

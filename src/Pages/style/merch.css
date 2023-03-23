@@ -31,6 +31,7 @@ body{
 }
 
 .container1{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -40,7 +41,7 @@ body{
 .image {
     margin: 70px 0 70px 0;
     display: block;
-    width: 60%;
+    width: 50%;
     height: auto;
 }
 
