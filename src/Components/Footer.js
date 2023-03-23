@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <section className='footer'>
             <Container>
-                
+
                 <Row>
                     <Col sm>
                         {/* <img
@@ -30,7 +30,7 @@ const Footer = () => {
                         <FaEnvelope /><a className="numMail" style={{ textDecoration: "none", color: 'rgb(255,255,255)' }} href="mailto:aagaz2k23@gmail.com">&nbsp; &nbsp; aagaz2k23@gmail.com</a>
                         <br />
                         <br />
-                        <a style={{ textDecoration: "none" }} className='icons' href="https://www.instagram.com/adhyaay21/" target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
+                        <a style={{ textDecoration: "none" }} className='icons' href="https://www.instagram.com/hbtusports/" target='_blank' rel="noopener noreferrer"><FaInstagram /></a>
                         <br />
                     </Col>
                 </Row>
