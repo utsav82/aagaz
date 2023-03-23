@@ -21,13 +21,13 @@
 
 @media only screen and (max-width: 600px) {
     .eventStyle1 {
-        height: 6800px;
+        height: 1800px;
     }
     .eventStyle2 {
-        height: 6900px;
+        height: 1600px;
     }
     .eventStyle3 {
-        height: 5000px;
+        height: 1700px;
     }
 }
 
