@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import img from '../res/footerImg.png';
 import "../Pages/style/footer.css";
-import { FaMapMarkerAlt, FaPhoneAlt, FaInstagram, FaFacebookSquare, FaEnvelope, FaYoutube, FaHeart } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram, FaHeart } from 'react-icons/fa';
 
 const Footer = () => {
     return (
