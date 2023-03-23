@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from 'react-bootstrap';
-import img from '../res/footerImg.png';
+// import img from '../res/footerImg.png';
 import "../Pages/style/footer.css";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
@@ -8,15 +8,16 @@ const Footer = () => {
     return (
         <section className='footer'>
             <Container>
+                
                 <Row>
                     <Col sm>
-                        <img
+                        {/* <img
                             alt="img"
                             src={img}
                             width="300"
                             height="auto"
                             className="d-inline-block align-top"
-                        />
+                        /> */}
                     </Col>
                     <Col md className='contact'>
                         <strong>
