@@ -29,7 +29,7 @@ const home = () => {
                 <div style={homeStyle} className="d-flex align-items-center justify-content-center landingPage">
                     <Image overflow="hidden" src={adhyaay_logo} rounded className="mainPageAdhyaayLogo" />
                     <Button variant="outline-danger" size="lg">
-                        <a style={{ textDecoration: 'none', fontWeight: '600', color: 'white' }} href='https://aagazhbtu.netlify.app/' target='_blank' rel="noopener noreferrer">Register Now</a>
+                        <a style={{ textDecoration: 'none', fontWeight: '600', color: 'white' }} href='https://forms.gle/Fh3XgEZ2ShbcnwCt9' target='_blank' rel="noopener noreferrer">Register Now</a>
                     </Button>
                 </div>
                 <div style={aboutStyle}>
